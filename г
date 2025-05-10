@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLBB Баатрууд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a23;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1c1c3c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      color: #00d4ff;
+    }
+
+    .hero-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .hero {
+      background: #222;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px #00d4ff88;
+    }
+
+    .hero h2 {
+      color: #00d4ff;
+      margin-top: 0;
+    }
+
+    .section-title {
+      color: #ffd700;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MLBB Баатруудын Комбо ба Түүх</h1>
+</header>
+
+<div class="hero-container">
+
+  <!-- Fanny -->
+  <div class="hero">
+    <h2>Fanny</h2>
+    <p class="section-title">Түүх:</p>
+    <p>Fanny нь агаарын олс ашиглан дайснуудаа гэнэтийн хурдтай довтолдог. Тэрээр ханан дээгүүр нисэх чадвартай тул тоглогчдоос өндөр ур чадвар шаарддаг.</p>
+    <p class="section-title">Комбо:</p>
+    <ul>
+      <li>Use 2nd Skill (Steel Cable) to fly through walls.</li>
+      <li>Activate 1st Skill (Tornado Strike) mid-air.</li>
+      <li>Use Ultimate (Cut Throat) for final blow on low HP enemies.</li>
+    </ul>
+  </div>
+
+  <!-- Ling -->
+  <div class="hero">
+    <h2>Ling</h2>
+    <p class="section-title">Түүх:</p>
+    <p>Ling бол ханан дээр гүйж чаддаг нууцлаг алуурчин. Тэрээр хурдан хөдөлгөөн, хүчтэй ганцаарчилсан довтолгоогоор алдартай.</p>
+    <p class="section-title">Комбо:</p>
+    <ul>
+      <li>Use 1st Skill (Finch Poise) to climb wall.</li>
+      <li>Dash to enemy with 2nd Skill (Defiant Sword).</li>
+      <li>Use Ultimate (Tempest of Blades) to juggle and finish.</li>
+    </ul>
+  </div>
+
+  <!-- Fredrinn -->
+  <div class="hero">
+    <h2>Fredrinn</h2>
+    <p class="section-title">Түүх:</p>
+    <p>Fredrinn бол танк ба тулалдааны баатар бөгөөд HP-гээ зарцуулж ур чадвараа ашигладаг. Тэрээр хамгаалалт болон сөрөг довтолгоонд гайхалтай чадварлаг.</p>
+    <p class="section-title">Комбо:</p>
+    <ul>
+      <li>Start with 1st Skill (Piercing Strike) to mark enemy.</li>
+      <li>Use 2nd Skill (Brave Assault) to knock up.</li>
+      <li>Then 3rd Skill (Energy Eruption) to taunt enemies.</li>
+      <li>Finish with Ultimate (Appraiser’s Wrath) when energy is full.</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
